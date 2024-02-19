@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obi", "Obi.csproj", "{5816bfba-b8b2-45ac-395b-ed9cd64503de}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameAssembly", "GameAssembly.csproj", "{b0fb57b7-a323-1d7b-abd6-b2fb6729ef32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{030fae7b-a010-2f90-a05c-6c0ca6904b68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obi.Editor", "Obi.Editor.csproj", "{e047ef6c-6fb5-99b0-f2aa-bad5f3b563f5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5816bfba-b8b2-45ac-395b-ed9cd64503de}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5816bfba-b8b2-45ac-395b-ed9cd64503de}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5816bfba-b8b2-45ac-395b-ed9cd64503de}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5816bfba-b8b2-45ac-395b-ed9cd64503de}.Release|Any CPU.Build.0 = Release|Any CPU
+		{b0fb57b7-a323-1d7b-abd6-b2fb6729ef32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b0fb57b7-a323-1d7b-abd6-b2fb6729ef32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b0fb57b7-a323-1d7b-abd6-b2fb6729ef32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{b0fb57b7-a323-1d7b-abd6-b2fb6729ef32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{030fae7b-a010-2f90-a05c-6c0ca6904b68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{030fae7b-a010-2f90-a05c-6c0ca6904b68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{030fae7b-a010-2f90-a05c-6c0ca6904b68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{030fae7b-a010-2f90-a05c-6c0ca6904b68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{e047ef6c-6fb5-99b0-f2aa-bad5f3b563f5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e047ef6c-6fb5-99b0-f2aa-bad5f3b563f5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{e047ef6c-6fb5-99b0-f2aa-bad5f3b563f5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{e047ef6c-6fb5-99b0-f2aa-bad5f3b563f5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
