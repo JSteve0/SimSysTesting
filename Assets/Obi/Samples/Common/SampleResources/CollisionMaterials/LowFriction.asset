@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dynamicFriction: 0.25
   staticFriction: 0.1
-  stickiness: 0
+  stickiness: 1
   stickDistance: 0
   frictionCombine: 0
   stickinessCombine: 0
