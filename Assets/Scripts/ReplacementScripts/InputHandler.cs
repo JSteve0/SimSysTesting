@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 /// <summary>
@@ -162,7 +163,7 @@ public class InputHandler : MonoBehaviour
     public void CloseLeftForcep(InputAction.CallbackContext context)
     {
         float input = context.ReadValue<float>();
-        leftForcep.SetPercentClosed(input * 100f);
+        leftForcep.SetPercentClosed(Math.Min(input * 100f, 90f));
     }
     
     public void CloseRightForcep(InputAction.CallbackContext context)
