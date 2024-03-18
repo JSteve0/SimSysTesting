@@ -163,7 +163,7 @@ public class InputHandler : MonoBehaviour
     public void CloseLeftForcep(InputAction.CallbackContext context)
     {
         float input = context.ReadValue<float>();
-        leftForcep.SetPercentClosed(Math.Min(input * 100f, 90f));
+        leftForcep.SetPercentClosed(Math.Min(input * 100f, 87.5f));
     }
     
     public void CloseRightForcep(InputAction.CallbackContext context)
