@@ -176,7 +176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3, type: 2}
-  filter: -65535
+  filter: -393212
   m_SourceCollider: {fileID: 81814323}
   m_DistanceField: {fileID: 0}
 --- !u!1 &119399417
@@ -407,7 +407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3, type: 2}
-  filter: -65535
+  filter: -393212
   m_SourceCollider: {fileID: 123676174}
   m_DistanceField: {fileID: 0}
 --- !u!1 &133484424
@@ -479,7 +479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3, type: 2}
-  filter: -65535
+  filter: -393212
   m_SourceCollider: {fileID: 142395399}
   m_DistanceField: {fileID: 0}
 --- !u!43 &166537974
@@ -671,7 +671,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3, type: 2}
-  filter: -65535
+  filter: -393212
   m_SourceCollider: {fileID: 276109793}
   m_DistanceField: {fileID: 0}
 --- !u!1 &302394957 stripped
@@ -700,7 +700,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3, type: 2}
-  filter: -65535
+  filter: -393212
   m_SourceCollider: {fileID: 302394959}
   m_DistanceField: {fileID: 0}
 --- !u!114 &403868188 stripped
@@ -790,7 +790,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3, type: 2}
-  filter: -65535
+  filter: -393212
   m_SourceCollider: {fileID: 427505500}
   m_DistanceField: {fileID: 0}
 --- !u!114 &450104468 stripped
@@ -839,7 +839,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: 56297c6e785b44eb28e469b62cedc016, type: 2}
-  filter: -65535
+  filter: 196609
   m_SourceCollider: {fileID: 506459882}
   m_DistanceField: {fileID: 0}
 --- !u!1 &511300949 stripped
@@ -868,7 +868,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3, type: 2}
-  filter: -65535
+  filter: -393212
   m_SourceCollider: {fileID: 511300951}
   m_DistanceField: {fileID: 0}
 --- !u!1 &516313368 stripped
@@ -897,7 +897,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3, type: 2}
-  filter: -65535
+  filter: -393212
   m_SourceCollider: {fileID: 516313370}
   m_DistanceField: {fileID: 0}
 --- !u!1 &526830944
@@ -1025,7 +1025,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3, type: 2}
-  filter: -65535
+  filter: -393212
   m_SourceCollider: {fileID: 633667680}
   m_DistanceField: {fileID: 0}
 --- !u!1 &640004279 stripped
@@ -1054,7 +1054,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3, type: 2}
-  filter: -65535
+  filter: -393212
   m_SourceCollider: {fileID: 640004281}
   m_DistanceField: {fileID: 0}
 --- !u!1 &706462341 stripped
@@ -1083,7 +1083,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3, type: 2}
-  filter: -65535
+  filter: -393212
   m_SourceCollider: {fileID: 706462343}
   m_DistanceField: {fileID: 0}
 --- !u!1 &717346441 stripped
@@ -1141,7 +1141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3, type: 2}
-  filter: -65535
+  filter: -393212
   m_SourceCollider: {fileID: 741355782}
   m_DistanceField: {fileID: 0}
 --- !u!1 &759115967 stripped
@@ -1334,7 +1334,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3, type: 2}
-  filter: -65535
+  filter: -393212
   m_SourceCollider: {fileID: 796273063}
   m_DistanceField: {fileID: 0}
 --- !u!1 &813765993 stripped
@@ -1363,7 +1363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3, type: 2}
-  filter: -65535
+  filter: -393212
   m_SourceCollider: {fileID: 813765995}
   m_DistanceField: {fileID: 0}
 --- !u!1 &833237724 stripped
@@ -2050,7 +2050,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   solverIndices: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f00000030000000310000003200000033000000340000003500000036000000370000003800000039000000
-  m_CollisionMaterial: {fileID: 0}
+  m_CollisionMaterial: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3,
+    type: 2}
   m_SurfaceCollisions: 0
   m_SelfCollisions: 1
   restLength_: 9.218234
@@ -2551,7 +2552,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3, type: 2}
-  filter: -65535
+  filter: -393212
   m_SourceCollider: {fileID: 1347173715}
   m_DistanceField: {fileID: 0}
 --- !u!1 &1350536568 stripped
@@ -2580,7 +2581,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3, type: 2}
-  filter: -65535
+  filter: -393212
   m_SourceCollider: {fileID: 1350536570}
   m_DistanceField: {fileID: 0}
 --- !u!1 &1396980384
@@ -7362,7 +7363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3, type: 2}
-  filter: -65535
+  filter: -393212
   m_SourceCollider: {fileID: 1422004647}
   m_DistanceField: {fileID: 0}
 --- !u!1 &1422622806 stripped
@@ -7449,7 +7450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3, type: 2}
-  filter: -65535
+  filter: -393212
   m_SourceCollider: {fileID: 1461064963}
   m_DistanceField: {fileID: 0}
 --- !u!1 &1474617194 stripped
@@ -7478,7 +7479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3, type: 2}
-  filter: -65535
+  filter: -393212
   m_SourceCollider: {fileID: 1474617196}
   m_DistanceField: {fileID: 0}
 --- !u!1 &1561028052 stripped
@@ -7507,7 +7508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3, type: 2}
-  filter: -65535
+  filter: -393212
   m_SourceCollider: {fileID: 1561028054}
   m_DistanceField: {fileID: 0}
 --- !u!1 &1687729911 stripped
@@ -7536,7 +7537,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3, type: 2}
-  filter: -65535
+  filter: -393212
   m_SourceCollider: {fileID: 1687729913}
   m_DistanceField: {fileID: 0}
 --- !u!1 &1694134506 stripped
@@ -7594,7 +7595,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3, type: 2}
-  filter: -65535
+  filter: -393212
   m_SourceCollider: {fileID: 1794678196}
   m_DistanceField: {fileID: 0}
 --- !u!114 &1926888729 stripped
@@ -7720,7 +7721,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3, type: 2}
-  filter: -65535
+  filter: -393212
   m_SourceCollider: {fileID: 2021859100}
   m_DistanceField: {fileID: 0}
 --- !u!1 &2022839742 stripped
@@ -7749,7 +7750,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thickness: 0
   material: {fileID: 11400000, guid: b231b678223e044588ce32ebccbe77f3, type: 2}
-  filter: -65535
+  filter: -393212
   m_SourceCollider: {fileID: 2022839745}
   m_DistanceField: {fileID: 0}
 --- !u!1 &2102841794
@@ -7809,7 +7810,7 @@ MonoBehaviour:
     damping: 0.99
     maxAnisotropy: 3
     sleepThreshold: 0.0001
-    collisionMargin: 0.01
+    collisionMargin: 0.001
     maxDepenetration: 0.1
     continuousCollisionDetection: 1
     shockPropagation: 0
@@ -7831,17 +7832,17 @@ MonoBehaviour:
     enabled: 1
   particleCollisionConstraintParameters:
     evaluationOrder: 1
-    iterations: 2
+    iterations: 1
     SORFactor: 1
     enabled: 1
   particleFrictionConstraintParameters:
     evaluationOrder: 1
-    iterations: 1
+    iterations: 5
     SORFactor: 1
     enabled: 1
   collisionConstraintParameters:
     evaluationOrder: 1
-    iterations: 2
+    iterations: 5
     SORFactor: 1
     enabled: 1
   frictionConstraintParameters:
