@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
+using Obi;
 
 /// <summary>
 /// Handles Forceps logic. Attached to each forceps. Specifically handles grasping and releasing objects and modifying the forceps position, rotation, and blade percent open.
@@ -14,6 +15,7 @@ public class ForcepScript : MonoBehaviour
     [SerializeField] private GameObject rightBlade;
     [SerializeField] private ForcepsColliderScriptEnhanced leftForcepsColliderScript;
     [SerializeField] private ForcepsColliderScriptEnhanced rightForcepsColliderScript;
+    [SerializeField] private ObiCollisionMaterial stickyMaterial;
 
     [Header("Settings")]
     
@@ -51,6 +53,11 @@ public class ForcepScript : MonoBehaviour
     public bool IsGraspingObject => _graspedObjects.Count > 0;
 
     private float _percentClosed;
+
+    private float _initialStickyValue = 0.2f;
+    private float _initialStaticFriction = 1f;
+    private float _initialDynamicFriction = 1f;
+    private float _initialStickDistance = 0.03f;
     
     public enum Blade
     {
@@ -64,6 +71,11 @@ public class ForcepScript : MonoBehaviour
     private void Start()
     {
         _startingRotation = transform.rotation;
+        
+        _initialStickyValue = stickyMaterial.stickiness;
+        _initialStaticFriction = stickyMaterial.staticFriction;
+        _initialDynamicFriction = stickyMaterial.dynamicFriction;
+        _initialStickDistance = stickyMaterial.stickDistance;
     }
 
     /// <summary>
@@ -76,6 +88,25 @@ public class ForcepScript : MonoBehaviour
 
         if (GameManagerScript.IsUsingForceps)
             _percentClosed = TrackStar.GetPercentClosed(forcepIndex);
+
+        if (_percentClosed >= 85) {
+            const float TOLERANCE = 0.01f;
+            if (Math.Abs(stickyMaterial.stickiness - _initialStickyValue) > TOLERANCE) {
+                stickyMaterial.stickiness = _initialStickyValue;
+                stickyMaterial.staticFriction = _initialStaticFriction;
+                stickyMaterial.dynamicFriction = _initialDynamicFriction;
+                stickyMaterial.stickDistance = _initialStickDistance;
+                stickyMaterial.UpdateMaterial();
+            }
+        } else {
+            if (stickyMaterial.stickiness != 0) {
+                stickyMaterial.stickiness = 0;
+                stickyMaterial.staticFriction = 0;
+                stickyMaterial.dynamicFriction = 0;
+                stickyMaterial.stickDistance = 0;
+                stickyMaterial.UpdateMaterial();
+            }
+        }
         
         float forcepBladeAngle = CalculateForcepBladeAngle(_percentClosed);
         
@@ -109,6 +140,13 @@ public class ForcepScript : MonoBehaviour
             transform.position = TrackStar.GetAveragePosition(forcepIndex);
             transform.rotation = TrackStar.GetAverageRotation(forcepIndex) * _startingRotation;
         }
+    }
+
+    private void OnApplicationQuit() {
+        stickyMaterial.stickiness = _initialStickyValue;
+        stickyMaterial.staticFriction = _initialStaticFriction;
+        stickyMaterial.dynamicFriction = _initialDynamicFriction;
+        stickyMaterial.stickDistance = _initialStickDistance;
     }
 
     /// <summary>
